@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Outline Box Form</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    form {
+      width: 400px;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    form h1{
+        text-align: center;
+        border-bottom: 2px soild black ;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 8px;
+    }
+    input,
+    textarea {
+      width: 80%;
+      padding: 8px;
+      margin-bottom: 16px;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: #4caf50;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 30%;
+      text-align: center;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+.backarrow
+{
+    margin-top:80px;
+}
+  </style>
+</head>
+<body>
+    <div class="backarrow">
+        <a href="home.html"><img src="Images/back arrow.png" width="40px" heigth="30px"></a>
+     </div>
+  <form action="/submit" method="post">
+    <h1>ADD STUDENT</h1>
+    <label for="REG NO">REG NO:</label>
+    <input type="text" id="REG NO" name="REG NO" placeholder="REG NO" required><br><br>
+
+    <label for="NAME">NAME:</label>
+    <input type="text"id="NAME" name="NAME" placeholder="NAME" required><br><br>
+    <label for="DEPARTMENTS">DEPARTMENT:</label>
+    <input type="text"id="DEPARTMENTS" name="department"Placeholder="DEPARTMENT" required><br>
+    <br>
+    <label for="cgpa">CGPA:</label>
+    <input type="text" id="cgpa" name="cgpa"placeholder="CGPA" required><br><br>
+    <label for="HSC">HSC:</label>
+    <input type="text" id="HSC"  name="HSC"Placeholder="HSC" ><br><br>
+    <label for="SSLC">SSLC:</label>
+    <input type="text" id="SSLC" name="SSLC"placeholder="SSLC" ><br><br>
+
+    <button type="submit" name="submit">SUBMIT</button>
+  </form>
+
+</body>
+</html>

@@ -1,0 +1,124 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.contact
+{
+    min-height: 100vh;
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+}
+.container
+{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top: 5%;
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    border-left: 2px solid black;
+    border-top: 2px solid black;
+}
+.container h1
+{
+    font-size: 30px;
+    margin-bottom: 40px;
+    color: black;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+
+}
+.contact-wrapper
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 30px;
+}
+.contact-form
+{
+    text-align: left;
+}
+.contact-form h3
+{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: black;
+}
+.form-group
+{
+    margin-bottom: 20px;
+}
+input,textarea
+{
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    margin-top: 10px;
+    border: none;
+    background-color: rgb(192, 214, 214);
+    color: black;
+}
+input:focus,
+textarea:focus
+{
+    outline:none;
+    box-shadow: 0 0 8px #bbb;
+}
+button
+{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: rgb(45, 133, 168);
+    color: black;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+button:hover
+{
+    background-color: blue;
+    color: white;
+
+}
+.contact-info
+{
+    text-align: left;
+}
+.contact-info h3
+{
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: black;
+}
+.contact-info p
+{
+    margin-bottom: 10px;
+    color: black;
+}
+.contact-info i
+{
+    color: black;
+    margin-right: 10px;
+}
+@media screen and (max-width: 768px) 
+{
+    .container
+    {
+        padding: 20px;
+    }
+    .contact-wrapper
+    {
+        grid-template-columns: 1fr;
+    }
+
+}
+.backarrow
+{
+    margin:30px;
+}
+    

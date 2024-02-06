@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>login</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <div class="form-container">
+            <form method="POST" action="login.php">
+                <h1>LOGIN</h1>
+                <div class="input">
+                    <input type="email" name="email" placeholder="EMAIL" required/>
+                    <i class='bx bx-envelope'></i>
+                </div>
+                <div class="input">
+                    <input type="password" name="password" placeholder="PASSWORD" required/>
+                    <i class='bx bx-lock-alt'></i>
+                </div>
+            <div class="input">
+                <input type="usertype" name="usertype" placeholder="Faculty / Student" required/>
+                <i class='bx bxs-user'></i>
+            </div>
+                <div class="forgot-password">
+                    <label><input type="checkbox">Remember me</label>
+                    <a href="#">Forgot password?</a>
+                </div>
+                <button type="submit" name="sumbit" class="btn">login</button>             
+                <div class="register">
+                    <p> Don't have an account? <a href="signup.html">Sign up</a></p>
+                </div> 
+            </form>
+        </div>
+    
+    </body>
+</html>

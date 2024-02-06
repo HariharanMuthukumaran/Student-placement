@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html Lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>STUDENT PLACEMENT DETAILS</title>
+        <link rel="stylesheet" href="home.css">
+        <script>
+            function showNavbar()
+            {
+                document.getElementById('sidebar').classList.toggle('active');
+            }
+            showNavbar();
+        </script>
+    </head>
+    <body>
+        
+        <div class="home-image">
+            <img src="Images/SASTRALOGO.png" width="auto" height="300px"/>
+        </div>
+        <hr>
+        <div id="sidebar">
+            <div class="toggleMenu" onclick="showNavbar()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+               <ul class="menubar">
+                <li><a href="#">Home</a></li>            
+                <li>Admin
+                    <ul class="Admin">
+                        <li>Student Details
+                            <ul class="studetail">
+                                <li><a href="upload.html">Upload student</a></li>
+                                <li><a href="addstudent.html">Add Student</a></li>
+                                <li><a href="viewstudent.html">View Student</a></li>
+                                <li><a href="#">Update Student</a></li>
+                                <li><a href="#">Delete Student</a></li>
+                            </ul>
+                        </li>
+                        <li>Company Details
+                            <ul class="comdetail">
+                                <li><a href="upload.html">Upload company</a></li>
+                                <li><a href="addcompany.html">Add company</a></li>
+                                <li><a href="viewcompany">View company</a></li>
+                                <li><a href="#">Update company</a></li>
+                                <li><a href="#">Delete company</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>Eligible Students
+                    <ul class="Departments">
+                        <li><a href="#">Bsc CS</a></li>
+                        <li><a href="#">BCA</a></li>
+                        <li><a href="#">BCOM</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html">Logout</a></li>
+            </ul>
+        </div>
+    </body>
+</html>
+
+
